@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import Navigation from './components/Navigation';
-import Hero from './components/Hero';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Publications from './components/Publications';
-import Honors from './components/Honors';
-import Skills from './components/Skills';
-import Education from './components/Education';
-import Extracurricular from './components/Extracurricular';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navigation from './src/components/Navigation';
+import Hero from './src/components/Hero';
+import Experience from './src/components/Experience';
+import Projects from './src/components/Projects';
+import Publications from './src/components/Publications';
+import Honors from './src/components/Honors';
+import Skills from './src/components/Skills';
+import Education from './src/components/Education';
+import Extracurricular from './src/components/Extracurricular';
+import Contact from './src/components/Contact';
+import Footer from './src/components/Footer';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
