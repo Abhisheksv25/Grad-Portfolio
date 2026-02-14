@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               <a href="mailto:as7750@columbia.edu" className="inline-flex justify-center items-center w-12 h-12 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm hover:border-teal-300 dark:hover:border-teal-600" aria-label="Email">
                 <Mail className="w-5 h-5" />
               </a>
-               <a href="#" className="inline-flex justify-center items-center w-12 h-12 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm hover:border-teal-300 dark:hover:border-teal-600" aria-label="Resume">
+               <a href="https://drive.google.com/file/d/1vlZ-nw2jZ0F-vInjBJHqA6zMEGojNDqw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center w-12 h-12 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full transition-colors border border-slate-200 dark:border-slate-700 shadow-sm hover:border-teal-300 dark:hover:border-teal-600" aria-label="Resume">
                 <Download className="w-5 h-5" />
               </a>
             </div>
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
                   If you are running this locally, put your image in the public folder and reference it like '/my-photo.jpg'.
                */}
                <img 
-                 src="Abhi_photo.jpg" 
+                 src="/Abhi_photo.jpg" 
                  alt="Abhishek S.V." 
                  className="w-full h-[460px] object-cover"
                />

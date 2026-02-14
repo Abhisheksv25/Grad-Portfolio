@@ -57,7 +57,9 @@ const Navigation: React.FC<NavigationProps> = ({ isDarkMode, toggleTheme }) => {
             </button>
 
             <a 
-              href="#" 
+              href="https://drive.google.com/file/d/1vlZ-nw2jZ0F-vInjBJHqA6zMEGojNDqw/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-teal-700 hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-500 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
             >
               <Download className="w-4 h-4 mr-2" />
@@ -98,7 +100,9 @@ const Navigation: React.FC<NavigationProps> = ({ isDarkMode, toggleTheme }) => {
               </a>
             ))}
             <a 
-              href="#" 
+              href="https://drive.google.com/file/d/1vlZ-nw2jZ0F-vInjBJHqA6zMEGojNDqw/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center w-full px-4 py-3 mt-4 text-base font-medium text-white bg-teal-700 rounded-md hover:bg-teal-800"
             >
               <Download className="w-5 h-5 mr-2" />

@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           © {new Date().getFullYear()} Abhishek Shanmuga Vengatasalam. All rights reserved.
         </p>
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="#" className="text-slate-400 hover:text-teal-700 dark:hover:text-teal-400 transition-colors text-sm">
+          <a href="https://drive.google.com/file/d/1vlZ-nw2jZ0F-vInjBJHqA6zMEGojNDqw/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-teal-700 dark:hover:text-teal-400 transition-colors text-sm">
             Resume
           </a>
           <a href="mailto:as7750@columbia.edu" className="text-slate-400 hover:text-teal-700 dark:hover:text-teal-400 transition-colors text-sm">
